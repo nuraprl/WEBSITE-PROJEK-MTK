@@ -1,0 +1,33 @@
+.container{
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+    border : 1px solid black;
+    margin : 20px auto;
+    padding : 10px;
+    width : 500px;
+}
+#tahun{
+    padding : 10px;
+    color : black;
+    font-size: 17px;
+    border : none;
+}
+#usia{
+    padding : 8px;
+    background: #333333;
+    color : white;
+    cursor : pointer;
+    font-size: 15px;
+}
+#usia:hover{
+    background-color : black;
+}
+label{
+    font-size: 18px;
+}
+.result{
+    font-size : 15px;
+    color :rgb(243, 29, 29);
+    margin-top : 10px;
+}
